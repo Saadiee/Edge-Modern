@@ -6585,6 +6585,10 @@ body {
   padding-top: 20vh;
   padding-bottom: 10vh; }
 
+@media only screen and (width: 1024px) {
+  .bd-wrapper {
+    padding-top: 5vh !important;
+    padding-bottom: 5vh !important; } }
 h1, h2, h3, h4, h5, h6, p {
   font-weight: 300; }
 
@@ -6775,6 +6779,10 @@ nav {
 
   .inner-text button {
     font-size: 15px !important; } }
+@media only screen and (max-width: 320px) {
+  .cs-button {
+    padding: 10px 0;
+    width: 100%; } }
 .section-2 {
   background-color: white; }
   .section-2 p {
@@ -6813,6 +6821,11 @@ nav {
 .sec-2-logos p {
   margin-bottom: 20px; }
 
+@media only screen and (max-width: 320px) {
+  .sec-2-logos i {
+    font-size: 25px !important; }
+  .sec-2-logos p {
+    font-size: 1rem; } }
 @media only screen and (min-width: 768px) {
   .sec-2-content {
     padding: 5% 10vw !important; } }
@@ -6821,7 +6834,7 @@ nav {
     padding: 5% 10vw !important; }
 
   .sec-2-logos i {
-    font-size: 35px !important; }
+    font-size: 35px; }
   .sec-2-logos #bdr-1 {
     border-right: 0.5px solid #cacaca;
     border-bottom: 0.5px solid #cacaca; }
@@ -6869,6 +6882,9 @@ nav {
     padding: 6vh 10vw; }
     .sec-3-text button {
       padding: 5px 20px !important; } }
+@media only screen and (max-width: 320px) {
+  .sec-3-text button {
+    width: 100% !important; } }
 .section-4 {
   background-image: linear-gradient(to right, #937f8f, #88778c, #7b6f8a, #6c6887, #5a6284); }
 
@@ -6973,7 +6989,7 @@ nav {
   padding-bottom: 0 !important; }
 .sec-5-logos i {
   margin-top: 2rem !important;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #f391aa;
   margin-top: 15px;
   border: 1px solid #dddcdc;
@@ -6983,6 +6999,8 @@ nav {
 #mid {
   border-left: 1px solid #d5d5d5;
   border-right: 1px solid #d5d5d5; }
+  #mid i {
+    font-size: 1.5rem; }
 
 @media only screen and (max-width: 767px) {
   #mid {
